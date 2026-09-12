@@ -1,0 +1,149 @@
+@import url('https://googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    width: 70vw;
+    margin-left: 230px;
+}
+
+.Loqo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center; 
+}
+.Ad {
+    margin-left: 15px; 
+    font-weight: 900; 
+    text-decoration: none;
+    color: #4C12A1; 
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+.menu1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size:xx-large;
+    color: black;
+    transition: 0.3s;
+}
+.menu1:hover{
+    color: lightgreen;
+}
+.menu1:focus{
+    color: rgb(0, 255, 0);
+}
+.menubutton{
+    background-color: #8400ff;
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    transition: 0.3s;
+    margin-top: -10px;
+}
+.menubutton:hover{
+    background-color: #5900ff;
+}
+.sebet{
+    font-size: x-large;
+    margin-top: -10px;
+}
+.sebet:hover{
+color: black;
+}
+.Main{
+    width: 70vw;
+    margin-left: 290px;
+    margin-top: 100px;
+    height: 620px;
+}
+.ilk{
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 30px;
+}
+.Learn{
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    margin-bottom: 30px;
+}
+.adam{
+    float: right;
+    width: 600px;
+    margin-right: 90px;
+    margin-bottom: 100px;
+}
+.learn1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+
+}
+.altliq{
+    font-family: 'Oswald';
+    letter-spacing: 0.1em;
+    margin-top: 12px;
+    margin-bottom: 20px;
+     letter-spacing: 3px;
+}
+.StartNow{
+    margin-top: 60px;
+    border: none;
+   background-color: #8400ff;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    transition: 0.3s;
+    margin-top: -10px;
+}
+.StartNow:hover{
+     background-color: #5900ff;
+}
+.work{
+    background-color: #F0EDFF;
+    height: 500px;
+    width: 99vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.work div{
+    background-color: #ffffff;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 50px;
+    width: 350px;
+  
+}
+.work img{
+   width: 100px;
+   margin-left: 120px;
+   margin-top: 50px;
+}
