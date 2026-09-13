@@ -1,6 +1,7 @@
 @import url('https://googleapis.com');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -49,7 +50,8 @@ nav {
     transition: 0.3s;
 }
 .menu1:hover{
-    color: lightgreen;
+    color: green !important;
+    
 }
 .menu1:focus{
     color: rgb(0, 255, 0);
@@ -110,12 +112,12 @@ margin-bottom: 30px;
     letter-spacing: 0.1em;
     margin-top: 12px;
     margin-bottom: 20px;
-     letter-spacing: 3px;
+    letter-spacing: 3px;
 }
 .StartNow{
     margin-top: 60px;
     border: none;
-   background-color: #8400ff;
+    background-color: #8400ff;
     height: 40px;
     width: 200px;
     border-radius: 20px;
@@ -190,13 +192,14 @@ justify-content: center;
 }
 .seki1{
      background-color: #ffffff;
-     width: 400px;
+     width: 165px;
      height: 165px;
      margin-left: 190px;
      margin-top: 60px;
      border-radius: 50%;
      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
      margin-right: 30px;
+     flex-shrink: 0;  
 }
 .bi{
     color: black;
@@ -205,7 +208,7 @@ justify-content: center;
 .esas-container{
     height: 200px;
     display: flex;
- 
+    justify-content: flex-end;
 }
 .figma{
      width: 70px;
@@ -213,12 +216,13 @@ justify-content: center;
 }
 .seki2{
      background-color: #ffffff;
-    width: 400px;
+     width: 165px;
      height: 165px;
      margin-top: 58px;
      border-radius: 50%;
      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
      margin-right: 30px;
+     flex-shrink: 0;  
 }
 .bz{
     margin-top: 59px;
@@ -226,12 +230,13 @@ justify-content: center;
 }    
 .seki3{
     background-color: #ffffff;
-    width: 400px;
+    width: 165px;
     height: 165px;
     margin-top: 58px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     margin-right: 30px;
+    flex-shrink: 0;  
 }
 .canva{
     width: 120px;
@@ -242,18 +247,95 @@ justify-content: center;
     color: black;
 }
 .seki4{
-        background-color: #ffffff;
-     width: 400px;
+     background-color: #ffffff;
+     width: 165px;
      height: 165px;
      margin-top: 58px;
      border-radius: 50%;
      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-     margin-right: 180px;
-
+     margin-right: 100px;
+     flex-shrink: 0;  
 }
 
 .capcut{
     width: 105px;
      margin-top: 25px;
      border-radius: 20px;
+}
+.uc{
+    background-color:#FFFFF0;
+    height: 70vw;
+}
+.fff{
+    text-align: center;
+}
+.hhh{
+  padding-top: 50px;
+  font-family: 'Source Sans 3';
+  font-size: 40px;
+  text-align: center;
+}
+.fff{
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-family: 'Source Sans 3';
+}
+.imgsatis{
+    width: 270px;
+   margin-left: 400px;
+   height: 300px;
+}
+.mehsuldiv{
+    display: flex;
+    margin-top: 70px;
+
+}
+.aa{
+margin-left: 50px;
+font-family: 'Source Sans 3';
+font-size: 25px;
+text-decoration: none;
+color: black;
+height: 10px;
+flex-shrink: 0;
+}
+.pp{
+   margin-left: 50px;
+   font-family: 'Source Sans 3';
+   margin-top: 10px;
+}
+.yazidivi{
+   
+}
+.cash{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.del{
+    font-size: 20px !important;
+}
+.author{
+    font-family: 'Source Sans 3';
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.role{
+     font-family: 'Source Sans 3';
+    margin-left: 48px;
+    font-size: 20px;
+}
+.addtocart{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 170px;
+    height: 55px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(12, 228, 66);
+    transition: 0.3s;
+}
+.addtocart:hover{
+ background-color: rgb(12, 210, 66);
 }
